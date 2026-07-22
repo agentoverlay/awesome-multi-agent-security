@@ -51,6 +51,10 @@ For a comparative set of slides that go through each of these approaches, see [h
 - **Delegated Search Approximates Efficient Search** – Presents a theoretical model where a principal delegates a search task to an agent with misaligned incentives. The mechanism guarantees outcomes within a constant factor of the optimal solution and reveals links to prophet inequalities in optimal stopping theory. [Link](https://arxiv.org/abs/1806.06933#:~:text=,mechanisms%20with%20a%20natural%20threshold)
 - **[On the Theory of Delegation](https://www.kellogg.northwestern.edu/research/math/papers/438.pdf)** – A foundational work that introduces a formal framework for understanding how principals optimally delegate tasks to agents under asymmetric information conditions.
 
+### Adversarial Attacks on Embedding-Based Guardrails
+
+- **Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models** - Text embedding models pack their outputs into a narrow band on the unit sphere. This bias lets an attacker find short universal suffixes ("magic words") that flip any text pair's cosine similarity, bypassing embedding-based safety guardrails across models and languages. The paper also proposes a training-free debiasing fix. [PDF](https://arxiv.org/pdf/2501.18280)
+
 ### Multi-Agent Systems and Task Delegation Frameworks
 
 - **A Model of Delegation for Multi-Agent Systems** – Proposes a formal logical framework for one agent to delegate tasks to another via communicative acts, clarifying how obligations and accountability are transferred. [PDF](http://arg.tech/people/chris/publications/2002/ukmas-book.pdf#:~:text=Abstract,latter%20commitments%20might%20then%20be)

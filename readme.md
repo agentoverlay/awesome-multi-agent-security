@@ -73,6 +73,11 @@ For a comparative set of slides that go through each of these approaches, see [h
   This work presents a decentralized framework that combines differential privacy with blockchain smart contracts (via Ethereum) to secure communication and data sharing among agents in distributed learning setups. Its techniques can be adapted for secure, privacy-preserving agent communication in broader multi-agent contexts.  
   [ArXiv](https://arxiv.org/abs/2106.01242)
 
+- **AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems**  
+  *Faouzi El Yagoubi, Godwin Badu-Marfo, and Ranwa Al Mallah (2026)*  
+  This benchmark evaluates privacy leakage through internal communication channels in multi-agent LLM systems, alongside final outputs.  
+  [IEEE Access](https://doi.org/10.1109/ACCESS.2026.3704541) | [Code](https://github.com/Privatris/AgentLeak)
+
 *Additional Note:* For further background on secure agent communication, you may also consult the FIPA standards on Agent Communication Languages (ACL) and subsequent extensions that address security and privacy—these standards provide foundational guidelines for implementing secure inter-agent protocols.
 
 ## Trust, Reputation, and Norm Based Security
